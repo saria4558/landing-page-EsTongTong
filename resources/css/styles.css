@@ -118,9 +118,9 @@ body {
 /* Hero Section */
 .hero-section {
   background-image: url('../image/banner.jpg');
-  background-size: cover;        
-  background-position: center;   
-  background-repeat: no-repeat;  
+  background-size: cover;        /* gambar menutupi seluruh area hero */
+  background-position: center;   /* posisi gambar di tengah */
+  background-repeat: no-repeat;  /* jangan tile gambar */
   padding: 60px;
   color: #0e0d0d;
 }
@@ -156,13 +156,19 @@ body {
   font-style:inherit;
   color: #db2778d7;
   letter-spacing: 2px; 
+  /* font-size: clamp(24px, 6vw, 48px); */
+  font-weight: 700;
+  line-height: 1.2;
+  word-break: break-word;
+  /* text-align: center; */
 }
 
 .hero-traditional {
   /* font-family: 'Fredoka', serif; */
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #db2778d7;
-  font-weight: 600;
+  font-weight: bold;
+  font-weight: 400;
   /* margin-bottom: 0px; */
   display: inline-block;
   margin-bottom: 7px;
@@ -177,6 +183,10 @@ body {
 }
 
 
+/* .hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 32px;
+} */
 
 .hero-buttons {
   display: flex;
@@ -200,25 +210,25 @@ body {
 }
 
 .hero-button.primary {
-  background-color: #db2778d7; 
+  background-color: #db2778d7; /* pink-600 */
   color: white;
 }
 
 .hero-button.primary:hover {
-  background-color: #be185d; 
+  background-color: #be185d; /* pink-700 */
 }
 
 .hero-button.secondary {
   background-color: white;
-  color: #db2778d7; 
+  color: #db2778d7; /* pink-600 */
 }
 
 .hero-button.secondary:hover {
-  background-color: #f3f4f6; 
+  background-color: #f3f4f6; /* gray-100 */
 }
 
 .hero-image {
-  display: block; 
+  display: block; /* atau flex kalau kamu mau isi di tengah */
   background-image: url('../image/hero4.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -227,7 +237,7 @@ body {
   width: 100%;
   max-width: 500px;
   height: auto;
-  aspect-ratio: 1 / 1; 
+  aspect-ratio: 1 / 1; /* menjaga rasio */
   margin: 0 auto;
   filter: drop-shadow(0 20px 25px rgba(0, 0, 0, 0.1));
 }
@@ -249,7 +259,37 @@ body {
 
 .hero-image img {
   max-width: 350px;
+  /* width: 100%; */
   filter: drop-shadow(0 20px 25px rgba(0, 0, 0, 0.1));
+}
+
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 40px;     /* layar kecil seperti HP */
+  }
+  .hero-traditional{
+    font-size: 20px; 
+  }
+  .hero-digital{
+    font-size: 20px;
+  }
+  .hero-container {
+    flex-direction: column-reverse; /* gambar jadi di atas */
+  }
+
+  .hero-text {
+    text-align: center; /* biar teksnya rapi di tengah */
+  }
+
+  .hero-image {
+    max-width: 80%; /* biar nggak terlalu besar di HP */
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 /* falvor section */
@@ -1029,6 +1069,14 @@ body {
   margin-bottom: 16px;
   line-height: 1.6;
 }
+
+@media (max-width: 640px) {
+  .about-section {
+    padding: 40px 16px;
+  }
+}
+
+
 
 /* Contact Section */
 .contact-section {
