@@ -44,7 +44,6 @@
             <span class="hero-traditional">Es dung-dung legendaris kini hadir dalam sentuhan modern.</span><br>
             <span class="hero-digital">Rasa tradisional yang menghangatkan kenangan, kini tersedia dalam kemasan higienis untuk berbagai acara spesial.</span>
         </p>
-        {{-- <p class="hero-subtitle">Rasakan Kenikmatan Es Tradisional dengan Bahan Premium, Segar Setiap Gigitan untuk keluarga, hanya dalam sekali klik</p> --}}
         <div class="hero-buttons">
             <a href="#packages" class="hero-button primary">
             Pesan Paket Sekarang
@@ -63,7 +62,6 @@
     <div class="about-container">
         <div class="about-content">
         <div class="about-image">
-           {{-- ?Z <img src="https://i.ytimg.com/vi/RJmbGnoSxU4/maxresdefault.jpg" class="about-img"> --}}
         </div>
         <div class="about-text">
             <img src="image/percikan.png" alt="Ciprat Air" class="splash-decor" />
@@ -196,13 +194,6 @@
             </div>
         </div>
         </div>
-
-        {{-- <div class="flavors-note">
-        <p class="note-text">
-            <i class="fas fa-exclamation-circle"></i>
-            Varian eceran hanya tersedia untuk pembelian langsung di outlet kami
-        </p>
-        </div> --}}
     </div>
     </section>
 
@@ -217,12 +208,6 @@
 
         <div class="location-content">
         <div class="location-info">
-            {{-- <h3 class="location-subtitle">Alamat Outlet</h3>
-            <div class="location-address">
-            <i class="fas fa-map-marker-alt location-icon"></i>
-            <p class="address-text">Jl. Gumuk Mangir, Kaliploso, Banyuwangi</p>
-            </div> --}}
-
             <h3 class="location-subtitle">Alamat Outlet</h3>
             <div class="location-address">
             <i class="fas fa-map-marker-alt location-icon"></i>
@@ -284,7 +269,6 @@
                 <li><i class="fas fa-check feature-icon"></i> varian rasa pilihan Anda</li>
                 <li><i class="fas fa-check feature-icon"></i> Free 1 scoop es krim</li>
             </ul>
-            {{-- <a href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20untuk%20memesan%20Paket%201%20Tong" class="package-button">Pesan via WhatsApp</a> --}}
             </div>
         </div>
 
@@ -303,7 +287,6 @@
                 <li><i class="fas fa-check feature-icon"></i> Free 0,5kg es krim bonus</li>
                 <li><i class="fas fa-check feature-icon"></i> Gratis box dan sendok</li>
             </ul>
-            {{-- <a href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20untuk%20memesan%20Paket%202%20Tong" class="package-button">Pesan via WhatsApp</a> --}}
             </div>
         </div>
 
@@ -321,80 +304,11 @@
                 <li><i class="fas fa-check feature-icon"></i> Free 1kg es krim bonus</li>
                 <li><i class="fas fa-check feature-icon"></i> Gratis box dan sendok </li>
             </ul>
-            {{-- <a href="https://wa.me/6281234567890?text=Halo,%20saya%20tertarik%20untuk%20memesan%20Paket%205%20Tong" class="package-button">Pesan via WhatsApp</a> --}}
             </div>
         </div>
         </div>
-        {{-- <button class="package-button" id="openFormBtn">Pesan Sekarang</button> --}}
-    {{-- <a href="https://wa.me/6282139411421?text=Halo,%20saya%20tertarik%20untuk%20memesan%20Paket%20Es%20Tong" class="package-button">Pesan via WhatsApp</a> --}}
     <a href="#" class="package-button" id="openFormBtn">Pesan Sekarang</a>
-    {{-- <div class="packages-guide">
-        <h3 class="guide-title">Bagaimana cara memesan paket?</h3>
-        <ol class="guide-steps">
-            <li>Pilih paket yang diinginkan di atas</li>
-            <li>Klik tombol "Pesan via WhatsApp"</li>
-            <li>Anda akan diarahkan ke chat WhatsApp dengan kami</li>
-            <li>Beritahu kami tentang kebutuhan Anda (jumlah, varian, tanggal pengiriman)</li>
-            <li>Kami akan konfirmasi ketersediaan dan detail pemesanan</li>
-            <li>Pembayaran dilakukan via transfer bank</li>
-            <li>Paket es krim akan dikirim sesuai waktu yang disepakati</li>
-        </ol>
-        </div>
-    </div> --}}
     </section>
-
-
-    <!-- Features Section -->
-    {{-- <section class="why-choose">
-    <div class="why-container">
-        <h2 class="why-title">Mengapa Memilih EsTongTong?</h2>
-
-        <div class="why-grid">
-        <!-- Feature 1 -->
-        <div class="why-card">
-            <div class="why-icon"><i class="fas fa-heart"></i></div>
-            <h3 class="why-card-title">Bahan Premium</h3>
-            <p class="why-card-text">Hanya menggunakan bahan-bahan pilihan berkualitas tinggi tanpa bahan pengawet.</p>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="why-card">
-            <div class="why-icon"><i class="fas fa-home"></i></div>
-            <h3 class="why-card-title">Homemade Quality</h3>
-            <p class="why-card-text">Dibuat dengan tangan penuh cinta dan proses yang higienis untuk kualitas terbaik.</p>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="why-card">
-            <div class="why-icon"><i class="fas fa-leaf"></i></div>
-            <h3 class="why-card-title">Varian Unik</h3>
-            <p class="why-card-text">Beragam varian rasa mulai dari klasik hingga kreasi spesial yang unik.</p>
-        </div>
-
-        <!-- Feature 4 -->
-        <div class="why-card">
-            <div class="why-icon"><i class="fas fa-truck"></i></div>
-            <h3 class="why-card-title">Pengiriman Aman</h3>
-            <p class="why-card-text">Dikirim dengan cool box khusus untuk menjaga es krim tetap beku sempurna.</p>
-        </div>
-
-        <!-- Feature 5 -->
-        <div class="why-card">
-            <div class="why-icon"><i class="fas fa-calendar-check"></i></div>
-            <h3 class="why-card-title">Siap untuk Acara</h3>
-            <p class="why-card-text">Kami siap melayani berbagai acara mulai dari ulang tahun, pernikahan hingga corporate event.</p>
-        </div>
-
-        <!-- Feature 6 -->
-        <div class="why-card">
-            <div class="why-icon"><i class="fas fa-hand-holding-usd"></i></div>
-            <h3 class="why-card-title">Harga Kompetitif</h3>
-            <p class="why-card-text">Kualitas premium dengan harga yang terjangkau untuk semua kalangan.</p>
-        </div>
-        </div>
-    </div>
-    </section> --}}
-
 
     <!-- Testimonials Section -->
     <section class="testimonials">
@@ -530,9 +444,6 @@
         </div>
     </div>
     </section>
-
-
-
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
@@ -689,10 +600,5 @@
     </form>
   </div>
 </div>
-
-
-
 </body>
-{{-- @vite('resources/js/app.js') --}}
 </html>
-
