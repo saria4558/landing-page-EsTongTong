@@ -215,11 +215,11 @@
             </div>
             <div class="location-address">
             <i class="fas fa-map-marker-alt location-icon"></i>
-            <a href="https://www.google.com/maps/place/8%C2%B027'21.3%22S+114%C2%B015'32.8%22E/@-8.4559147,114.2565244,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-8.4559147!4d114.2590993?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D" class="contact-link">Jl. Gumuk Mangir, Kaliploso, Banyuwangi</a>
+            <a href="https://www.google.com/maps/place/8%C2%B027'21.3%22S+114%C2%B015'32.8%22E/@-8.4559147,114.2565244,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-8.4559147!4d114.2590993?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D" class="contact-link">Jl. Diponegoro, Tampo, Banyuwangi</a>
             </div>
             <div class="location-address">
             <i class="fas fa-map-marker-alt location-icon"></i>
-            <a href="https://www.google.com/maps/place/8%C2%B027'21.3%22S+114%C2%B015'32.8%22E/@-8.4559147,114.2565244,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-8.4559147!4d114.2590993?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D" class="contact-link">Jl. Gumuk Mangir, Kaliploso, Banyuwangi</a>
+            <a href="https://www.google.com/maps/place/8%C2%B027'21.3%22S+114%C2%B015'32.8%22E/@-8.4559147,114.2565244,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-8.4559147!4d114.2590993?entry=ttu&g_ep=EgoyMDI1MDcwNy4wIKXMDSoASAFQAw%3D%3D" class="contact-link">Jl. Grajagan, Tampo, Banyuwangi</a>
             </div>
 
             <h3 class="location-subtitle">Jam Buka</h3>
@@ -242,7 +242,7 @@
         </div>
 
         <div class="location-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3946.450142052072!2d114.25686407410538!3d-8.45552999158469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMjcnMTkuOSJTIDExNMKwMTUnMzQuMCJF!5e0!3m2!1sid!2sid!4v1751500046264!5m2!1sid!2sid" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1grNpW939ZGoNCfqJekJrkhfmv_bbdV4&ehbc=2E312F" width="570" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         </div>
     </div>
@@ -385,7 +385,7 @@
             </button>
             <div class="faq-answer">
             <p>
-                Minimal order adalah 1 tong (5kg). Namun untuk beberapa varian khusus mungkin ada ketentuan minimal order yang berbeda. Silakan hubungi kami via WhatsApp untuk info lebih detail.
+                Minimal order adalah 1 tong (1kg). Namun untuk beberapa varian khusus mungkin ada ketentuan minimal order yang berbeda. Silakan hubungi kami via WhatsApp untuk info lebih detail.
             </p>
             </div>
         </div>
@@ -437,7 +437,7 @@
             </button>
             <div class="faq-answer">
             <p>
-                Untuk memastikan ketersediaan bahan dan kualitas terbaik, kami menyarankan pemesanan minimal 3 hari sebelumnya. Namun untuk pesan hari-H, silakan hubungi kami untuk mengecek stok yang tersedia.
+                Untuk memastikan ketersediaan bahan dan kualitas terbaik, kami menyarankan pemesanan minimal 7 hari sebelumnya. Namun untuk pesan hari-H, silakan hubungi kami untuk mengecek stok yang tersedia.
             </p>
             </div>
         </div>
@@ -541,12 +541,21 @@
             </ul>
         </div>
 
-        <div class="footer-policy">
+        {{-- <div class="footer-policy">
             <h3 class="footer-title-sm">Kebijakan</h3>
             <ul class="footer-links">
             <li><a href="#">Syarat & Ketentuan</a></li>
             <li><a href="#">Kebijakan Privasi</a></li>
             <li><a href="#">Kebijakan Pengembalian</a></li>
+            </ul>
+        </div> --}}
+
+        <div class="footer-policy">
+            <h3 class="footer-title-sm">Jam Buka</h3>
+            <ul class="footer-links">
+            <li><a href="#">Senin - Jumat: 10:00 - 20:00 </a></li>
+            <li><a href="#">Sabtu - Minggu: 09:00 - 21:00</a></li>
+            {{-- <li><a href="#">Kebijakan Pengembalian</a></li> --}}
             </ul>
         </div>
 
