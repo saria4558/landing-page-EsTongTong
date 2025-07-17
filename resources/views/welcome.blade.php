@@ -522,8 +522,8 @@
 
     <!-- Footer -->
     <footer class="site-footer">
-    <div class="footer-container">
-        <div class="footer-grid">
+    {{-- <div class="footer-container"> --}}
+        {{-- <div class="footer-grid">
         <div class="footer-about">
             <h3 class="footer-title">EsTongTong</h3>
             <p class="footer-text">
@@ -550,16 +550,16 @@
             </ul>
         </div> --}}
 
-        <div class="footer-policy">
+        {{-- <div class="footer-policy">
             <h3 class="footer-title-sm">Jam Buka</h3>
             <ul class="footer-links">
             <li><a href="#">Senin - Jumat: 10:00 - 20:00 </a></li>
             <li><a href="#">Sabtu - Minggu: 09:00 - 21:00</a></li>
-            {{-- <li><a href="#">Kebijakan Pengembalian</a></li> --}}
+           
             </ul>
-        </div>
+        </div> --}}
 
-        <div class="footer-newsletter">
+        {{-- <div class="footer-newsletter">
             <h3 class="footer-title-sm">Newsletter</h3>
             <p class="footer-text">Dapatkan promo dan penawaran spesial langsung ke email Anda.</p>
             <div class="footer-newsletter-form">
@@ -569,11 +569,11 @@
             </button>
             </div>
         </div>
-        </div>
+        </div>  --}}
         <div class="footer-bottom">
         <p>© 2025 EsTongTong. All Rights Reserved.</p>
         </div>
-    </div>
+    {{-- </div> --}}
     </footer>
     
     
